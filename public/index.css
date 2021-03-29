@@ -1,6 +1,0 @@
-/* Font Necessary For Site Identity. */
-
-@font-face {
-    font-family: 'ChineseRocks';
-    src: local('chinese_rocks_rg'), url(fonts/chinese_rocks_rg.ttf) format('ttf');
-}
