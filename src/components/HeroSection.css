@@ -1,7 +1,6 @@
 .hero-container {
-    background-image: url('../images/background.png') center;
-    background: black;
-    height: 100vh;
+    background: url('../images/header.jpeg') center center / 100% no-repeat;
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;

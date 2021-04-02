@@ -12,10 +12,10 @@ function Footer() {
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
                             Rockstar
-                            <img class="logo" src={Logo} />
+                            <img className="logo" src={Logo} />
                         </Link>
                     </div>
-                    <small class='website-rights'>Rockstar Copyright © 2021</small>
+                    <small class='website-rights'>Copyright © Rockstar 2021. All Rights Reserved.</small>
                     <div class='social-icons'>
                         <Link
                             class='social-icon-link facebook'
