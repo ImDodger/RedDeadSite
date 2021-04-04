@@ -12,7 +12,8 @@
   font-weight: normal;
 }
 
-.home   {
+.home, .gallery   {
+  background-color: darkred;
   display: flex;
   height: 90vh;
   align-items: center;

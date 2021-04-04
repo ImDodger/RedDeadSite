@@ -9,6 +9,8 @@
     top: 0;
     z-index: 999;
     border-bottom: 1px solid white;
+    background-image: url('../images/background.png');
+    background-position: top center;
 }
 
 .navbar-container {
@@ -57,11 +59,11 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    transition: all 0.2s;
 }
 
 .nav-links:hover {
     border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
 }
 
 .fa-bars {
@@ -106,6 +108,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+        transition: all 0.2s;
     }
 
     .nav-links:hover {
@@ -118,7 +121,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
+        transform: translate(25%, 100%);
     }
 
     .menu-icon {
@@ -148,7 +151,7 @@
         color: #fff;
         padding: 14px 20px;
         border: 1px solid #fff;
-        transition: all 0.3s ease-out;
+        transition: all 0.2s ease-out;
     }
 
     .nav-links-mobile:hover {

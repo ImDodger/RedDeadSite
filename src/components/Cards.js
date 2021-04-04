@@ -1,10 +1,10 @@
 import React, { useCallback } from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import img1 from '../images/storyimage2.png';
+import img1 from '../images/arthurcard.png';
 import img2 from '../images/storyimage3.png';
-import img3 from '../images/image3.jpg';
-import img4 from '../images/pic5.jpg';
+import img3 from '../images/storyimage1.png';
+import img4 from '../images/storyimage2.png';
 import ReactPlayer from './ReactPlayer';
 
 function Cards() {
@@ -28,13 +28,14 @@ function Cards() {
                     <ul className='cards__items'>
                         <CardItem
                             src={img3}
-                            text='GALLERY'
+                            text='VIEW THE GALLERY'
                             path='/gallery'
                         />
+                        
                         <CardItem
                             src={img4}
-                            text='PURCHASE'
-                            path=''
+                            text='JOURNALIST REVIEWS'
+                            path='/reviews'
                         />
                     </ul>
                     <ul className='cards__trailer'>
