@@ -5,6 +5,7 @@
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 .cards__container {
@@ -12,8 +13,14 @@ h1 {
     flex-flow: column;
     align-items: center;
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .cards__container {
+        width: 80%;
+    }
 }
 
 .cards__wrapper {
@@ -31,6 +38,12 @@ h1 {
     margin: 0 1rem;
     width: 300px;
     border-radius: 5%;
+}
+
+@media only screen and (min-width:768px) {
+    .cards__item {
+        width: 500px;
+    }
 }
 
 .cards__item__link {

@@ -5,6 +5,13 @@
   font-family: 'ChineseRocks';
 }
 
+@font-face {
+  font-family: "ChineseRocks";
+  src: local("ChineseRocks"),
+      url("./fonts/chinese_rocks_rg.ttf") format("truetype");
+  font-weight: normal;
+}
+
 .home   {
   display: flex;
   height: 90vh;
