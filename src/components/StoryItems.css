@@ -2,6 +2,10 @@
     background: rgb(21, 0, 0);
 }
 
+.story__container h1 {
+    padding-top: 40px;
+}
+
 .story__item__one, .story__item__two, .story__item__three {
     display: flex;
     flex-direction: row;

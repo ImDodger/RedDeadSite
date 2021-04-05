@@ -9,10 +9,27 @@ import gallery5 from '../images/pic5.jpg';
 import gallery6 from '../images/pic6.jpeg';
 import gallery7 from '../images/pic7.jpg';
 import gallery8 from '../images/pic8.png';
+import gallery9 from '../images/pic9.jpg';
+import gallery10 from '../images/pic10.jpg';
+import gallery11 from '../images/pic11.jpeg';
+import gallery12 from '../images/pic12.jpg';
+import gallery13 from '../images/pic13.jpg';
+import gallery14 from '../images/pic14.jpg';
+import gallery15 from '../images/pic15.jpg';
+import gallery16 from '../images/pic16.jpg';
+import gallery17 from '../images/pic17.jpg';
+import gallery18 from '../images/pic18.jpg';
+import gallery19 from '../images/pic19.jpeg';
+import gallery20 from '../images/pic20.jpg';
+import gallery21 from '../images/pic21.jpg';
+import gallery22 from '../images/pic22.jpeg';
+import gallery23 from '../images/pic23.jpg';
+import gallery24 from '../images/pic24.jpg';
 
 function GalleryPictures() {
     return (
         <div className="gallery__container">
+            <h1>Our Ingame Images</h1>
             <div class="gallery__items">
                 <img src={gallery1} alt="Gallery Picture" />
                 <img src={gallery2} alt="Gallery Picture" />
@@ -22,6 +39,22 @@ function GalleryPictures() {
                 <img src={gallery6} alt="Gallery Picture" />
                 <img src={gallery7} alt="Gallery Picture" />
                 <img src={gallery8} alt="Gallery Picture" />
+                <img src={gallery9} alt="Gallery Picture" />
+                <img src={gallery10} alt="Gallery Picture" />
+                <img src={gallery11} alt="Gallery Picture" />
+                <img src={gallery12} alt="Gallery Picture" />
+                <img src={gallery13} alt="Gallery Picture" />
+                <img src={gallery14} alt="Gallery Picture" />
+                <img src={gallery15} alt="Gallery Picture" />
+                <img src={gallery16} alt="Gallery Picture" />
+                <img src={gallery17} alt="Gallery Picture" />
+                <img src={gallery18} alt="Gallery Picture" />
+                <img src={gallery19} alt="Gallery Picture" />
+                <img src={gallery20} alt="Gallery Picture" />
+                <img src={gallery21} alt="Gallery Picture" />
+                <img src={gallery22} alt="Gallery Picture" />
+                <img src={gallery23} alt="Gallery Picture" />
+                <img src={gallery24} alt="Gallery Picture" />
             </div>
         </div>
     );

@@ -1,0 +1,35 @@
+.reviews__container {
+    background: rgb(21, 0, 0);
+    background-image: url("../images/reviewsbackground.jpg");
+}
+
+.reviews__item__one, .reviews__item__two, .reviews__item__three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.reviews__items img {
+    padding-top: 10px;
+}
+
+.reviews__items {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 95%;
+    margin: auto;
+
+}
+
+.reviews__items h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.reviews__items h3 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

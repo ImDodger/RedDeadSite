@@ -8,6 +8,7 @@ import img3 from "../images/storyimage3.png";
 function StoryItems() {
     return(
         <div class="story__container">
+            <h1>The Story Of Red Dead Redemption II</h1>
             <div class="story__items">
                 <div class="story__item__one">
                     <img src={img1} alt="Story Picture" />
