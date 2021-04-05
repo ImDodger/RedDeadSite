@@ -1,10 +1,10 @@
-import React, { useCallback } from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
+import React from 'react';
 import img1 from '../images/arthurcard.png';
-import img2 from '../images/storyimage3.png';
 import img3 from '../images/storyimage1.png';
 import img4 from '../images/storyimage2.png';
+import img2 from '../images/storyimage3.png';
+import CardItem from './CardItem';
+import './Cards.css';
 import ReactPlayer from './ReactPlayer';
 
 function Cards() {

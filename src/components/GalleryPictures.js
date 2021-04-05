@@ -30,31 +30,31 @@ function GalleryPictures() {
     return (
         <div className="gallery__container">
             <h1>Our Ingame Images</h1>
-            <div class="gallery__items">
-                <img src={gallery1} alt="Gallery Picture" />
-                <img src={gallery2} alt="Gallery Picture" />
-                <img src={gallery3} alt="Gallery Picture" />
-                <img src={gallery4} alt="Gallery Picture" />
-                <img src={gallery5} alt="Gallery Picture" />
-                <img src={gallery6} alt="Gallery Picture" />
-                <img src={gallery7} alt="Gallery Picture" />
-                <img src={gallery8} alt="Gallery Picture" />
-                <img src={gallery9} alt="Gallery Picture" />
-                <img src={gallery10} alt="Gallery Picture" />
-                <img src={gallery11} alt="Gallery Picture" />
-                <img src={gallery12} alt="Gallery Picture" />
-                <img src={gallery13} alt="Gallery Picture" />
-                <img src={gallery14} alt="Gallery Picture" />
-                <img src={gallery15} alt="Gallery Picture" />
-                <img src={gallery16} alt="Gallery Picture" />
-                <img src={gallery17} alt="Gallery Picture" />
-                <img src={gallery18} alt="Gallery Picture" />
-                <img src={gallery19} alt="Gallery Picture" />
-                <img src={gallery20} alt="Gallery Picture" />
-                <img src={gallery21} alt="Gallery Picture" />
-                <img src={gallery22} alt="Gallery Picture" />
-                <img src={gallery23} alt="Gallery Picture" />
-                <img src={gallery24} alt="Gallery Picture" />
+            <div className="gallery__items">
+                <img src={gallery1} alt="Gallery Instance" />
+                <img src={gallery2} alt="Gallery Instance" />
+                <img src={gallery3} alt="Gallery Instance" />
+                <img src={gallery4} alt="Gallery Instance" />
+                <img src={gallery5} alt="Gallery Instance" />
+                <img src={gallery6} alt="Gallery Instance" />
+                <img src={gallery7} alt="Gallery Instance" />
+                <img src={gallery8} alt="Gallery Instance" />
+                <img src={gallery9} alt="Gallery Instance" />
+                <img src={gallery10} alt="Gallery Instance" />
+                <img src={gallery11} alt="Gallery Instance" />
+                <img src={gallery12} alt="Gallery Instance" />
+                <img src={gallery13} alt="Gallery Instance" />
+                <img src={gallery14} alt="Gallery Instance" />
+                <img src={gallery15} alt="Gallery Instance" />
+                <img src={gallery16} alt="Gallery Instance" />
+                <img src={gallery17} alt="Gallery Instance" />
+                <img src={gallery18} alt="Gallery Instance" />
+                <img src={gallery19} alt="Gallery Instance" />
+                <img src={gallery20} alt="Gallery Instance" />
+                <img src={gallery21} alt="Gallery Instance" />
+                <img src={gallery22} alt="Gallery Instance" />
+                <img src={gallery23} alt="Gallery Instance" />
+                <img src={gallery24} alt="Gallery Instance" />
             </div>
         </div>
     );
