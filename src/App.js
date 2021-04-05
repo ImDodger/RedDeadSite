@@ -10,7 +10,7 @@ import Reviews from './components/pages/Reviews';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/caseStudyFour">
       <Navbar />
       <Switch>
       <Route path='/' exact component={Home} />
