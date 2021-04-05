@@ -1,0 +1,22 @@
+.story__container {
+    background: rgb(21, 0, 0);
+}
+
+.story__item__one, .story__item__two, .story__item__three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.story__items {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 95%;
+    margin: auto;
+}
+
+.story__items p {
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
